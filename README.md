@@ -1,4 +1,4 @@
-#Personal Portfolio with React and Tailwind CSS
+Personal Portfolio with React and Tailwind CSS
 
 This project is a responsive and modern personal portfolio website built using React and Tailwind CSS. It showcases my skills, projects, and experience in an visually appealing and user-friendly way.
 
@@ -18,7 +18,7 @@ React Router: Library for handling client-side routing
 Any additional libraries or frameworks (e.g., React-scroll, React-icons) as needed
 Getting Started:
 
-Clone the repository: git clone https://github.com/your-username/react-tailwind-portfolio.git
+Clone the repository: git clone https://github.com/muluken638/react-tailwind-portfolio.git
 Install dependencies: npm install
 Start the development server: npm start
 Open the application in your browser: http://localhost:3000

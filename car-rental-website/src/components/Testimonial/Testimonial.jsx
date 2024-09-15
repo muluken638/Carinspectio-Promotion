@@ -1,9 +1,11 @@
 import React from "react";
+import CarPng from '../../assets/car1.png';
 
 const testimonialData = [
   {
     name: "Muluken Zeleke",
-    image: "",
+    image: CarPng,
+
     description: "Exceptional service! The team at Car Inspection provided a thorough and detailed report that gave me complete peace of mind. Highly recommend their expertise!",
     aosDelay: "0",
   },
@@ -40,7 +42,9 @@ const Testimonial = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-black dark:text-white">
+          <div
+          
+           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-black dark:text-white">
             {testimonialData.map((skill) => (
               <div
                 key={skill.name}
@@ -50,7 +54,7 @@ const Testimonial = () => {
               >
                 <div className="grid place-items-center ">
                   <img
-                    src="https://picsum.photos/200"
+                    src={skill.image}
                     alt=""
                     className="rounded-full w-20 h-20"
                   />

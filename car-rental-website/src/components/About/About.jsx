@@ -1,5 +1,6 @@
 import React from "react";
 import CarPng from "../../assets/car1.png";
+import Experience from "../Experience/Experience";
 
 const About = () => {
   return (
@@ -22,13 +23,10 @@ const About = () => {
                 About us
               </h1>
               <p data-aos="fade-up" className="leading-8 tracking-wide">
-             
-At Car Inspection, our mission is to ensure your vehicle's safety and reliability through comprehensive inspections.
-
-
+                At Car Inspection, our mission is to ensure your vehicle's safety and reliability through comprehensive inspections.
               </p>
               <p data-aos="fade-up">
-              Our experienced team is dedicated to providing thorough assessments, whether for your annual check-up or post-repair evaluation. We take pride in delivering detailed and transparent reports that help you maintain confidence in your vehicle's condition. With a commitment to excellence, Car Inspection is your trusted partner in road safety.
+                Our experienced team is dedicated to providing thorough assessments, whether for your annual check-up or post-repair evaluation. We take pride in delivering detailed and transparent reports that help you maintain confidence in your vehicle's condition. With a commitment to excellence, Car Inspection is your trusted partner in road safety.
               </p>
               <button data-aos="fade-up" className="button-outline">
                 Get Started
@@ -37,6 +35,7 @@ At Car Inspection, our mission is to ensure your vehicle's safety and reliabilit
           </div>
         </div>
       </div>
+      <Experience/>
     </div>
   );
 };

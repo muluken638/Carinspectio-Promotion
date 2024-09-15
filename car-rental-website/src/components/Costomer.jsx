@@ -1,15 +1,20 @@
 import React from 'react';
+import CarPng from "../assets/car1.png";
 
 const Customer = () => {
   return (
     <>
     
-      <div className="w-full max-w-md p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+      <div className="w-full mx-4 p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 duration-300">
         <div className="flex items-center justify-between mb-4">
-          <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">
+          <h5
+           data-aos="fade-up"
+           className="text-3xl sm:text-4xl font-bold font-serif">
             Latest Customers
           </h5>
-          <a href="#" className="text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">
+          <a href="#"  
+         data-aos="fade-up"
+         className="text-sm sm:text-xs font-bold font-serif text-blue-600 underline">
             View all
           </a>
         </div>
@@ -18,7 +23,7 @@ const Customer = () => {
             <li className="py-3 sm:py-4">
               <div className="flex items-center">
                 <div className="flex-shrink-0">
-                  <img className="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-1.jpg" alt="Neil image" />
+                  <img className="w-8 h-8 rounded-full" src={CarPng} alt="Neil image" />
                 </div>
                 <div className="flex-1 min-w-0 ms-4">
                   <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
